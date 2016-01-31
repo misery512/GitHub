@@ -1,0 +1,32 @@
+﻿/*將所有元素的內距邊界歸零*/
+body, h1, h2, h3, h4, h5, h6, p, blockquote, th, td, div, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, input, button, textarea {
+margin: 0;
+padding: 0;
+}
+/*重置頁面基本字型大小及行高*/
+body {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 75%;
+line-height: 1;
+}
+/*將標題的字型大小及粗細都重置*/
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+font-weight: normal;
+}
+/*將清單樣式清除*/
+ol, ul {
+list-style: none;
+}
+
+/*將連結、底線、刪除線重置*/
+a, ins,del {
+text-decoration: none;
+}
+/*將表單元素的字型樣式設為繼承(父元素)樣式保持一致性*/
+input, button, textarea, select, optgroup, option {
+font-family: inherit;
+font-size: inherit;
+font-style: inherit;
+font-weight: inherit;
+}
